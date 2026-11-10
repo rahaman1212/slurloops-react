@@ -1,0 +1,38 @@
+/* =========================
+   HEADER
+========================= */
+.header {
+  background: #151515;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid #2c2c2c;
+  box-shadow: 0 4px 15px rgba(0, 255, 100, 0.1);
+}
+
+.header .logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #39ff14;
+  text-shadow: 0 0 8px #39ff14;
+}
+
+.nav a {
+  color: #90ee90;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #39ff14;
+  text-shadow: 0 0 8px #39ff14;
+}

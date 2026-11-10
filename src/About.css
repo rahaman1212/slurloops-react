@@ -1,0 +1,17 @@
+/* =========================
+   ABOUT SECTION
+========================= */
+.about {
+  background: #1a1a1a;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 6px 25px rgba(0, 255, 100, 0.1);
+  padding: 3rem;
+}
+
+.about h2 {
+  color: #39ff14;
+  margin-bottom: 1rem;
+  text-align: center;
+}
