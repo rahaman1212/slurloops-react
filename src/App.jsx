@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import About from "./About";
@@ -6,7 +7,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import "./App.css";
 
-function App() {
+function Home() {
   return (
     <>
       <NavBar />
@@ -15,6 +16,17 @@ function App() {
       <Products />
       <Contact />
       <Footer />
+    </>
+  );
+}
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
