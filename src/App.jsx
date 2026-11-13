@@ -1,7 +1,3 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import About from "./About";
