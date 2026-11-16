@@ -5,7 +5,9 @@ import About from "./About";
 import Products from "./Products";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Login from "./Pages/Login";
 import "./App.css";
+import NewAccount from "./Pages/NewAccount";
 
 function Home() {
   return (
@@ -16,6 +18,7 @@ function Home() {
       <Products />
       <Contact />
       <Footer />
+      <Login />
     </>
   );
 }
@@ -25,6 +28,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="NewAccount" element={<NewAccount />} />
+          <Route path="NewAccount/Login" element={<Login />} />
+          <Route path="NewAccount/Login/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
