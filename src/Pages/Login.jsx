@@ -1,17 +1,19 @@
+import { Link } from "react-router";
+import "./Login.css";
 function Login() {
   return (
     <>
-      <section>
+      <section className="Login-card">
         <h1>Login</h1>
-        <form>
+        <form action="">
           <label>Email:</label>
           <input type="email" placeholder="Enter Email" required />
           <br />
           <label>Password:</label>
           <input type="password" placeholder="Enter Password" required />
           <br />
-          <button className="CTA">
-            <link to="/">Submit</link>
+          <button className="CTA a">
+            <Link to="/">Submit</Link>
           </button>
         </form>
       </section>
