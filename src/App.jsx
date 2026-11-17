@@ -29,7 +29,6 @@ function App() {
           <Route path="NewAccount" element={<NewAccount />} />
           <Route path="Login" element={<Login />} />
           <Route path="NewAccount/Login" element={<Login />} />
-          <Route path="Login/" element={<Home />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>

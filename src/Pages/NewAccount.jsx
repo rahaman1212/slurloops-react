@@ -5,6 +5,7 @@ function NewAccount() {
     <>
       <section className="Account-card">
         <form action="">
+          <div class="logo wobble">🥨 SlurpLoops</div>
           <h1>Create An Account</h1>
           <label for="name">Name: </label>
           <input type="text" name="" placeholder="Enter Name" required />

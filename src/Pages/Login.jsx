@@ -4,6 +4,7 @@ function Login() {
   return (
     <>
       <section className="Login-card">
+        <div class="logo wobble">🥨 SlurpLoops</div>
         <h1>Login</h1>
         <form action="">
           <label>Email:</label>
